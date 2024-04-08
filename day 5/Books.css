@@ -1,0 +1,20 @@
+.one{
+    
+    background-color: blue;
+    font-style: italic;
+}
+ol{
+font-family: 'Courier New', Courier, monospace;
+background-color: brown;
+}
+
+#today{
+    background-color: palevioletred;
+    font-weight: 200;
+    font-style: algerian;
+}
+body{
+    margin-left: 30px;
+    margin-right:30px;
+    padding:20px;
+}
