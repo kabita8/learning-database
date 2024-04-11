@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day 8", "Day 8", "{CDB00862-292A-4B52-A0E9-AFDD9851C285}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NETStarter", "NETStarter", "{3ED0FB04-96B0-488E-9D3B-4888408A8B33}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basics", "Day 8\NETStarter\Basics\Basics.csproj", "{3A7AD566-3B6F-41E9-B877-6138CAC016C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A7AD566-3B6F-41E9-B877-6138CAC016C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A7AD566-3B6F-41E9-B877-6138CAC016C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A7AD566-3B6F-41E9-B877-6138CAC016C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A7AD566-3B6F-41E9-B877-6138CAC016C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3ED0FB04-96B0-488E-9D3B-4888408A8B33} = {CDB00862-292A-4B52-A0E9-AFDD9851C285}
+		{3A7AD566-3B6F-41E9-B877-6138CAC016C0} = {3ED0FB04-96B0-488E-9D3B-4888408A8B33}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E86C02B-B88A-4BB8-A771-9D0157286319}
+	EndGlobalSection
+EndGlobal
