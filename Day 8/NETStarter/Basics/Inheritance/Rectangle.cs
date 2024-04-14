@@ -1,5 +1,5 @@
 //write console app to calculate area and perimeter of different 20 shapes.
-class Rectangle
+class Rectangle:IShape2D
 {
     //deafult parameterless constructor
     // public rectangle()
@@ -10,7 +10,7 @@ class Rectangle
     public Rectangle(double l, double w)
     {
         length = l;
-        width= w;
+        width = w;
     }
     
     double length;

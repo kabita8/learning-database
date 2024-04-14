@@ -47,8 +47,12 @@
 // Console.WriteLine("Square1 -Area: " + sa);
 
 
-Circle c1 = new Circle(16.3);
-double perimeter = c1.GetPerimeter();
-double area = c1.GetArea();
-Console.WriteLine("circle-Perimeter: " + perimeter);
-Console.WriteLine("circle-Area: " + area);
+// Circle c1 = new Circle(16.3);
+// double perimeter = c1.GetPerimeter();
+// double area = c1.GetArea();
+// Console.WriteLine("circle-Perimeter: " + perimeter);
+// Console.WriteLine("circle-Area: " + area);
+
+var sphere =new Sphere(45,8);
+var ssa = sphere1.GetArea();
+sphere1.PrintSphereInfo(45,8);
