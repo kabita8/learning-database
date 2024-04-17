@@ -53,6 +53,19 @@
 // Console.WriteLine("circle-Perimeter: " + perimeter);
 // Console.WriteLine("circle-Area: " + area);
 
-var sphere =new Sphere(45,8);
-var ssa = sphere1.GetArea();
-sphere1.PrintSphereInfo(45,8);
+// var sphere =new Sphere(45,8);
+// var ssa = sphere1.GetArea();
+// sphere1.PrintSphereInfo(45,8); 
+
+
+// var fileio = new FileIO();
+// fileio.CreateFile();
+// fileio.CreateFileWithInfolder();
+
+string filePath =@"E:\day 2\learning-database\Day 8\NETStarter\Basics\Peoplemanagement\People.csv";
+CSVParser csvParser = new CSVParser();
+csvParser.Parse(filePath);
+csvParser.PrintNames();
+
+
+

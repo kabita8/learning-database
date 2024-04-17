@@ -1,7 +1,9 @@
+using System;
+
 class Sphere: Circle
 {
-    publc Sphere(double radius)
-     : base(radius)
+    public Sphere(double radius) 
+    : base(radius)
      {}
 
      //method overriding
