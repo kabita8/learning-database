@@ -10,4 +10,16 @@ public class Person
 
 }
     
-      
+  //next solution
+class Person 
+{
+  int index;
+  string UserId;
+  string firstName;
+  string lastName;
+  Gender sex; 
+  string email;
+  string phone;
+  DateTime dob;
+  string jobTitle; 
+}  

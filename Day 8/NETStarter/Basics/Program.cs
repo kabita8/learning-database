@@ -67,5 +67,17 @@ CSVParser csvParser = new CSVParser();
 csvParser.Parse(filePath);
 csvParser.PrintNames();
 
+int[] ages = [45,8,18,12.9,67];
+//Find squares of all numbers in ages collection
+//Imperative
+List<int> squares = [];
+foreach(var age in ages)
+{
+var square = age * age;
+square.Add(square);
+}
+
+//Declarative
+var square = ages.Select(age => age * age);
 
 

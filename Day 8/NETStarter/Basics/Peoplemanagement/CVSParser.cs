@@ -45,3 +45,26 @@ public class CSVParser
         }
     }
 }
+
+
+// next solution
+
+class csvParser
+{
+    List<Person> people = [];
+    public void Parse()
+    {
+        //Read file
+        string filepath=@""
+        var lines = File.ReadAllLines(filepath);
+        //parsing
+        foreach(var line in lines.Skip(1))
+        {
+            var parts = line.Split(",",StrigSplitOptions.RemoveEmptyEntries);
+            var person = new Person
+            {
+                index
+            }
+        }
+    }
+}
