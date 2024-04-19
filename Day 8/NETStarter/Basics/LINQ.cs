@@ -17,8 +17,7 @@ square.Add(square);
 
 //Declarative
 var square = ages.Select(age => age * age);
-}
-}
+
 
 
 //find odd numbers within ages
@@ -26,3 +25,5 @@ var odds = ages.Where(x => x % 2 == 1);
 
 //find cubes of all even numbers within ages collection
 var cubes = ages.Where(age => age % 2 == 0).Select(age => age * age * age);  
+}
+}
