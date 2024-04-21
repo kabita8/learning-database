@@ -62,22 +62,35 @@
 // fileio.CreateFile();
 // fileio.CreateFileWithInfolder();
 
-string filePath =@"E:\day 2\learning-database\Day 8\NETStarter\Basics\Peoplemanagement\People.csv";
-CSVParser csvParser = new CSVParser();
-csvParser.Parse(filePath);
-csvParser.PrintNames();
+// string filePath =@"E:\day 2\learning-database\Day 8\NETStarter\Basics\Peoplemanagement\People.csv";
+// CSVParser csvParser = new CSVParser();
+// csvParser.Parse(filePath);
+// csvParser.PrintNames();
 
-int[] ages = [45,8,18,12.9,67];
-//Find squares of all numbers in ages collection
-//Imperative
-List<int> squares = [];
-foreach(var age in ages)
-{
-var square = age * age;
-square.Add(square);
-}
+//next solution
+// CsvParser parser = new();
+// parser.Parse();
+// parser.PrintNames();
 
-//Declarative
-var square = ages.Select(age => age * age);
+
+// int[] ages = [45,8,18,12.9,67];
+// //Find squares of all numbers in ages collection
+// //Imperative
+// List<int> squares = [];
+// foreach(var age in ages)
+// {
+// var square = age * age;
+// square.Add(square);
+// }
+
+// //Declarative
+// var square = ages.Select(age => age * age);
+
+// ParallelAsync parallelAsync = new();
+// parallelAsync.ProcessNumbers();
+
+await parallelAsync.IgniteStove();
+await parallelAsync.PutKettleOnWithWater();
+await parallelAsync.GrindMasala();
 
 
