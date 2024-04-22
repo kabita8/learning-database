@@ -31,29 +31,29 @@ class ParallelAsync
 // AJAX- Asynchronous javascript and XML :non blocking I/O
 //.NET: async, await
 
-//making tea
-public async Task IgniteStove()
-{
-  async Task.Delay(5000);
-}
-public  async Task void PutKettleOnWithWater()
-{
- async Task.Delay(5000);
-}
-public  async Task GrindMasala()
-{
+// //making tea
+// public async Task IgniteStove()
+// {
+//   async Task.Delay(5000);
+// }
+// public  async Task void PutKettleOnWithWater()
+// {
+//  async Task.Delay(5000);
+// }
+// public  async Task GrindMasala()
+// {
 
-}
-public  async Task PourSugar()
-{
+// }
+// public  async Task PourSugar()
+// {
 
-}
-public  async Task PourChiyaPatti()
-{
+// }
+// public  async Task PourChiyaPatti()
+// {
 
-}
-public  async Task PourMilk(
-    {
+// }
+// public  async Task PourMilk(
+//     {
 
-    }
-)
+//     }
+// )

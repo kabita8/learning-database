@@ -68,9 +68,9 @@
 // csvParser.PrintNames();
 
 //next solution
-// CsvParser parser = new();
-// parser.Parse();
-// parser.PrintNames();
+CsvParser parser = new();
+parser.Parse();
+parser.PrintNames();
 
 
 // int[] ages = [45,8,18,12.9,67];
@@ -89,8 +89,8 @@
 // ParallelAsync parallelAsync = new();
 // parallelAsync.ProcessNumbers();
 
-await parallelAsync.IgniteStove();
-await parallelAsync.PutKettleOnWithWater();
-await parallelAsync.GrindMasala();
+// await parallelAsync.IgniteStove();
+// await parallelAsync.PutKettleOnWithWater();
+// await parallelAsync.GrindMasala();
 
 
