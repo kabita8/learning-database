@@ -11,7 +11,7 @@
 // }
     
   //next solution
-class Person
+public class Person
 {
     //Index,User Id,First Name,Last Name,Sex,Email,Phone,Date of birth,Job Title
     public int index;

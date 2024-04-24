@@ -68,9 +68,9 @@
 // csvParser.PrintNames();
 
 //next solution
-CsvParser parser = new();
-parser.Parse();
-parser.PrintNames();
+// CsvParser parser = new();
+// parser.Parse();
+// parser.PrintNames();
 
 
 // int[] ages = [45,8,18,12.9,67];
@@ -93,4 +93,39 @@ parser.PrintNames();
 // await parallelAsync.PutKettleOnWithWater();
 // await parallelAsync.GrindMasala();
 
+// BasicDbContext Db = new();
+// var teacher1 = new Teacher
+// {
+// Name="Ashin",
+// Address = "Dang",
+// Gender ='F',
+// Qualification = "Bachelor",
+// Dob = new DateTime(2002,07,20)
+// };
+// Db.Teachers.Add(teacher1);
+// Db.SaveChanges();
+// //var teachers = Db.Teachers.ToList();
+// //List all female teachers from dang
+// var teachers = Db.Teachers.Where(teacher => teacher.Gender == 'F' && teacher.Address == "Dang").ToList();
+
+
+// foreach(var teacher in teachers)
+// {
+//     Console.WriteLine($"Name: {teacher.Name}, Dob:{teacher.Dob}");
+// }
+
+
+
+
+
+CsvParser parser = new CsvParser();
+List<Person> people = parser.Parse();
+
+// Create instance of PeopleReport
+PeopleReport report = new PeopleReport();
+
+// Generate and save reports
+report.SaveMales(people.ToArray(), "males.csv");
+report.SaveAdultFemales(people.ToArray(), "adultfemales.csv");
+report.SaveDotComUsers(people.ToArray(), "dotcomusers.csv");
 

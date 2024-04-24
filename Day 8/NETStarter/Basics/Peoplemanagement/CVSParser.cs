@@ -52,13 +52,15 @@
 class CsvParser
 {
     List<Person> people = [];
-    public void Parse()
+      public List<Person> Parse()
+    //public void Parse()
     {
         // Read file
         string filePath = @"E:\day 2\learning-database\Day 8\NETStarter\Basics\Peoplemanagement\People.csv";
         var lines = File.ReadAllLines(filePath);
         
         // Parsing
+
         foreach(var line in lines.Skip(1))
         {
             var parts = line.Split(",", StringSplitOptions.RemoveEmptyEntries);
@@ -77,6 +79,7 @@ class CsvParser
 
             people.Add(person);
         }
+     return people;  
     }
 
     public void PrintNames()
